@@ -11,7 +11,22 @@ function App() {
     // console.log("Value Added", Math.random());
     //counter = counter + 1
     //console.log("Value Added", counter);
-    setCounter(counter + 1)
+    //setCounter(counter + 1)
+    
+    // For Interview 
+
+    // setCounter(counter + 1)
+    // setCounter(counter + 1)
+    // setCounter(counter + 1)
+    // setCounter(counter + 1)
+    // Yeh Increment just one kry ga q ky react bunch of code ly kr jata hai fibre ky pass .
+
+    setCounter(prevCounter => prevCounter + 1)
+    setCounter(prevCounter => prevCounter + 1)
+    setCounter(prevCounter => prevCounter + 1)
+    setCounter(prevCounter => prevCounter + 1)
+    //Ab iski value direct 4 ho gi increment krty waqt 
+
   }
 
   const removeValue = () => {
